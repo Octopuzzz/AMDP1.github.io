@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+main-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 0;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 60vh;
+}
+.formLogin h1{
+    font-size: 5vh;
+}
+.formLogin form{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formLogin input{
+    margin-top: 1vh;
+    width: 30vh;
+    height: 4vh;
+    border: none;
+    border-bottom: solid 0.4vh;
+}
+.formLogin label{
+    text-align: center;
+    margin-top: 3vh;
+}
+.formLogin button{
+    margin-top: 2vh;
+    border: none;
+    background-color: #434343;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 7vh;
+    width: 40%;
+    border-radius: 20px;
+}
+.formLogin p{
+    margin-top: 4vh;
+    font-size: 2vh;
+}
+.formLogin a{
+    color: blue;
+}
+.formRegist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vh;
+    height: 80vh;
+}
+.formRegist form{
+    width: 80vh;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.formRegist input{
+    margin-top: 1vh;
+    width: 80vh;
+    height: 4vh;
+    border: none;
+    border-bottom: solid 0.4vh;
+}
+.formRegist h1{
+    font-size: 5vh;
+}
+.formRegist label{
+    margin-top: 3vh;
+}
+.aic{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.formRegist button{
+    margin-top: 2vh;
+    border: none;
+    background-color: #434343;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 7vh;
+    width: 40%;
+    border-radius: 20px;
+}
+.formRegist #city{
+    margin-top: 2vh;
+    width: 80vh;
+    height: 4vh;
+    font-size: 1.7vh;
+}
+button:hover{
+    background-color: white;
+    border: 0.1vh solid #2E2E46;
+    color: #2E2E46;
+}
+.gen-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh; 
+}
+.gender{
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+}
+.gender input{
+    width: auto;
+}
+.gender label{
+    margin-right: 2vh;
+}
+.gender label, .gender input{
+    padding: 0 0.5vh;
+    margin-top: 0;
+}
+@media only screen and (max-width: 600px){
+    .formRegist form{
+        width: 40vh;
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .formRegist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40vh;
+        height: 80vh;
+    }
+    .formRegist input{
+        margin-top: 1vh;
+        width: 40vh;
+        height: 4vh;
+        border: none;
+        border-bottom: solid 0.4vh;
+    }
+    .formRegist #city{
+        margin-top: 2vh;
+        width: 40vh;
+        height: 4vh;
+    }
+    .gender label, .gender input{
+        padding: 0.5vh;
+        margin-top: 0;
+        width: 5vh;
+    }
+    .gender label{
+        margin-right: 2vh;
+    }
+    .gender input{
+        width: 2vh;
+    }
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.big-text{
+    letter-spacing: 1vh;
+    font-size: 8vh;
+    padding: 4vh;
+    text-align: center;
+    background-color: #565454;
+    font-weight: bold;
+}
+.about{
+    background-color: #303238;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.text-exp{
+    font-size: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-text{
+    line-height: 1.6;
+    width: 60%;
+    text-align: justify;
+    padding: 7vh 0 2vh 0;
+}
+.left-text{
+    line-height: 1.6;
+    width: 60%;
+    font-size: 2vh;
+    padding-bottom: 7vh;
+}
+.left-text div{
+    padding-bottom: 1.2vh;
+}
+.left-text h3{
+    font-size: 4vh;
+    padding: 2.7vh 0;
+}

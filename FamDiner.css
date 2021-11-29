@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 90%;
+}
+.active{
+    background-color: skyblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+header{
+    background-image: linear-gradient(to top left, rgb(80, 103, 163), rgb(26, 35, 57) 78%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2.3vh;
+}
+.headerLogo{
+    width: 23vh;
+}
+.hButton{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerButton{
+    font-size: 1.8vh;
+    color: white;
+    font-weight: bold;
+    background-color:#434343;
+    width: 30%;
+    padding: 1.3vh 2.5vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 5vh;
+}
+.headerButton:hover{
+    transition: 0.3s;
+    transform: scale(1.07);
+    color: black;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    background-color: #434343;
+}
+.navbar{
+    font-size: 1.8vh;
+    color: white;
+    display: flex;
+    width: 60vh;
+    justify-content: space-around;
+}
+.navHover{
+    padding: 2vh 6.6vh;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropButton{
+    font-size: 1.8vh;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.dropdownContent{
+    font-size: 1.6vh;
+    display: none;
+    position: absolute;
+    background-color: #434343;
+    min-width: 18.5vh;
+    z-index: 1;
+}
+.dropdownContent a{
+    text-align: center;
+    color: white;
+    padding: 2vh 2vh;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+.navHover:hover{
+    background-color: skyblue;
+    color: black;
+}
+.dropdownContent a:hover{
+    background-color: skyblue;
+    color: black;
+}
+.menuHome{
+    background: linear-gradient(rgba(0.1,0.1,0.1,0.1),#000000a6),url(./images/background_home.jpg);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.menuHome div{
+    padding-bottom: 1.5vh;
+}
+main-content h1{
+    font-size: 7vh;
+}
+main-content p{
+    margin-bottom: 3vh;
+    font-size: 4.5vh;
+}
+.homeBtn{
+    background-color: #434343;
+    padding: 1.3vh 2.5vh;
+    border-radius: 5vh;
+    color: white;
+    border: none;
+}
+.homeBtn:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+    background-color: white;
+    color: #434343;
+}
+footer{
+    padding-top: 1vh;
+    background-color: #515151;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sosmedLogo img{
+    width: 2.5vh;
+    padding: 1.5vh 1vh;
+}
+footer p{
+    font-size: 1.5vh;
+    padding-bottom: 2vh;
+}
+@media only screen and (max-width: 600px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+    }
+    nav{
+        width: 100%;
+        background-color: #454D80;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .navbar{
+        font-size: 1.5vh;
+        color: white;
+        display: flex;
+        width: 60vh;
+        justify-content: space-around;
+    }
+    .dropButton{
+        font-size: 1.5vh;
+        border: none;
+        background-color: transparent;
+        color: white;
+    }
+    .dropdownContent{
+        font-size: 1.6vh;
+        display: none;
+        position: absolute;
+        background-color: #454D80;
+        min-width: 17.8vh;
+        z-index: 1;
+    }
+}

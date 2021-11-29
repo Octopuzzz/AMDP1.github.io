@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.svg">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="FamDiner.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="headerLogo">
+            <a href="FamDiner.html">
+                <img src="./images/logo.svg" alt="">
+            </a>
+        </div>
+        <div class="hButton">
+            <a href="register.html" class="headerButton">REGISTER</a>
+            <a href="login.html" class="headerButton">LOGIN</a>
+        </div>
+    </header>
+    <nav>
+        <div class="navbar">
+            <div class="navHover active"><a href="FamDiner.html">HOME</a></div>
+            <div class="dropdown">
+                <button class="dropButton navHover">MENU</button>
+                <div class="dropdownContent">
+                    <a href="menu.html">BURGER</a>
+                    <a href="menu.html">RICE & PASTA</a>
+                    <a href="menu.html">SEAFOOD</a>
+                </div>
+            </div>
+            <div class="navHover"><a href="about.html">ABOUT US</a></div>
+        </div>
+    </nav>
+    <main-content>
+        <div class="formLogin">
+            <h1>Login</h1>
+            <form action="">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="off" autofocus>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <button type="submit" onclick="validateLogin()">Login</button>
+            </form>
+            <p>Want to join us? Register <a href="register.html">here!</a></p>
+        </div>
+    </main-content>
+    <footer>
+        <div class="sosmedLogo">
+            <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.png" alt=""></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt=""></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="./images/instagram.png" alt=""></a>
+        </div>
+        <div>
+            <p>Copyright &copy; 2021 Cecilia Michell. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
